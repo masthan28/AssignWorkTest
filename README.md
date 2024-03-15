@@ -14,3 +14,5 @@
 ## run our application 
 # right click on our project we seen like run as nutton click on it.
 ##  run in server click on that it takes to browser .
+
+# my database schema name is " student_schema ". in mysql
