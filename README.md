@@ -1,19 +1,29 @@
-# These is eclipse ide open file keyword  then click on a new keyword and then open maven java project 
-# after clicking maven project simply click in next button there is a filter name on it  search there  org.apache.maven.archetypes 
-# click next then you showing Group Id : it is nothing but java project name enter com.assignment
-# artifact Id is give any name then click finish button 
-# add a server to over project download apache in google then place it in server name by seeing in the down row if it not there then top there is window button press it then showview button click that we seen server there click it
-# after download the apache server click to connect server then place a server folder path and version then click next and then next 
-# now src folder inside there is a main folder click on it and then  webapp inside  WEB_INF folder click create new folder name it as a classes in inside create new folder name it has a META_INF after clicking meta-inf create inside  xml file name it has a persistence.xml file 
-# copy all the neccesary provide like creation of database 
-# inside  WEB_INF  create new folder in name it has views inside in we create jsp files like datasucces,retriveData,signUpPage files after then  click on views folder create new file name it has a MYMvc-servlet.xml
-# create new file inside the same folder name it has a web.xml file 
-# a web-app floder we have default index.jsp file
-# in pom.xml file we downloaded all dependiecies in mvn reposirty add in the pom.xml
-
-## run our application 
-# right click on our project we seen like run as nutton click on it.
-##  run in server click on that it takes to browser .
-
-# my database schema name is " student_schema ". in mysql
-# in persistence.xml file we have to place our DB usename and password and also place a database schema on it . 
+Open Eclipse IDE.
+Open a new file or project.
+Select "Maven Project" from the options.
+Click "Next".
+In the filter, type "org.apache.maven.archetypes".
+Select the appropriate archetype and click "Next".
+Provide the Group Id (Java project name), e.g., com.assignment.
+Choose an Artifact Id (any name).
+Click "Finish" to create the project.
+Download Apache Tomcat server from the internet and place it in the desired location.
+If the "Servers" tab is not visible, go to Window > Show View > Servers.
+Click on "Servers" in the tab.
+Add a new server by right-clicking and selecting "New > Server".
+Choose Apache Tomcat server, specify the server's folder path and version, then click "Next" and "Finish".
+Inside the "src" folder, create a "main" folder.
+Inside "main", create a "webapp" folder.
+Inside "webapp", create a "WEB-INF" folder.
+Inside "WEB-INF", create a "classes" folder.
+Inside "classes", create a "META-INF" folder.
+Inside "META-INF", create a "persistence.xml" file for database configuration.
+Create a "views" folder inside "WEB-INF".
+Inside "views", create JSP files like "datasuccess.jsp", "retrieveData.jsp", "signUpPage.jsp".
+Create a "MYMvc-servlet.xml" file inside the "views" folder.
+Create a "web.xml" file in the same folder.
+In the "web-app" folder, you may have a default "index.jsp" file.
+In the "pom.xml" file, add dependencies from the Maven repository.
+Configure the database connection details (username, password, database schema) in the "persistence.xml" file.
+Run the application by right-clicking on the project and selecting "Run As > Run on Server".
+Access the application via a web browser.
