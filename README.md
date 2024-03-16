@@ -16,3 +16,4 @@
 ##  run in server click on that it takes to browser .
 
 # my database schema name is " student_schema ". in mysql
+# in persistence.xml file we have to place our DB usename and password and also place a database schema on it . 
